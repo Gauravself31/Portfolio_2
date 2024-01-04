@@ -119,13 +119,13 @@ section{
 }
 
 .header .navbar {
-    padding-top: 1rem;
+    padding-top: 1 rem;
 }
 
 .header .navbar a {
     display: block;
     margin: 1.5rem 0;
-    padding: .7rem;
+    /* padding: rem; */
     border-radius: 5 rem;
     font-size: 2rem;
     box-shadow: var(--box-shadow);
@@ -503,19 +503,6 @@ width: 60%;
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* media queries */
 @media (max-width:991px) {
     html {
@@ -529,6 +516,7 @@ width: 60%;
 
     .header {
         left: -110%;
+        
     }
 
     .header.active {
@@ -540,9 +528,9 @@ width: 60%;
         display: initial;
     }
 
-}
 
-@media (max-width:450px) {
+}
+@media screen and (max-width:450px) {
     html {
         font-size: 50%;
 
@@ -553,3 +541,30 @@ width: 60%;
         border-right: 0;
     }
 }
+@media screen and (max-width:991px) {
+    html {
+        font-size: 55%;
+
+    }
+
+    body {
+        padding-left: 0;
+    }
+
+    .header {
+        left: -110%;
+         
+    }
+    
+    .header.active {
+        left: 0%;
+        transition: .4s linear;
+    }
+
+    #menu-btn {
+        display: initial;
+    }
+
+
+}
+
