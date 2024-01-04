@@ -345,7 +345,7 @@ width: 60%;
 
 .services .box-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(33rem, 1fr));
     gap: 2rem;
 }
 
@@ -400,7 +400,7 @@ width: 60%;
 
 .portfolio .box-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(33rem, 1fr));
     gap: 2rem;
 }
 .portfolio .box-container .box{
