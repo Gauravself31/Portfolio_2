@@ -95,16 +95,16 @@ section{
 }
 
 #userimg {
-    width: 150px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
 
 }
 
 .header .user img {
     margin: 1rem 0;
-    border: 1rem solid transparent;
+    border: .2em solid#27ae60;
     border-right: 50%;
-    border-radius: 45%;
+    border-radius: 50%;
     box-shadow: var(--box-shadow);
 }
 
@@ -136,7 +136,7 @@ section{
 
 .header .navbar a:hover {
     box-shadow: var(--box-shadow-inset);
-    color:blue;
+    color:#27ae60;
 }
 
 #menu-btn {
@@ -324,24 +324,29 @@ padding: 1rem;
 }
 
 .about .row .progress .bar-1-1 span{
-width: 80%;
+width: 100%;
 }
 .about .row .progress .bar-1-2 span{
-width: 70%;
+width: 100%;
 }
 .about .row .progress .bar-1-3span{
-width: 70%;
+width: 100%;
 }
+.about .row .progress .bar-1-4span{
+    width: 100%;
+    }
 .about .row .progress .bar-2-1 span{
-width: 90%;
+width: 100%;
 }
 .about .row .progress .bar-1-2 span{
-width: 80%;
+width: 100%;
 }
 .about .row .progress .bar-2-3 span{
-width: 60%;
+width: 100%;
 }
-
+.about .row .progress .bar-2-4span{
+    width: 100%;
+    }
 
 .services .box-container{
     display: grid;
